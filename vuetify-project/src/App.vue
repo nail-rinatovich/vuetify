@@ -5,6 +5,7 @@
     <v-main>
       <Hero />
       <SearchForm />
+      <Date />
       <FeaturedApartments />
     </v-main>
 
@@ -18,6 +19,7 @@ import Hero from './components/Hero.vue'
 import SearchForm from './components/SearchForm.vue'
 import FeaturedApartments from './components/FeaturedApartments.vue'
 import Footer from './components/Footer.vue'
+import Date from './components/Date.vue'
 
 export default {
   name: 'App',
@@ -25,6 +27,7 @@ export default {
     Header,
     Hero,
     SearchForm,
+    Date,
     FeaturedApartments,
     Footer
   }
